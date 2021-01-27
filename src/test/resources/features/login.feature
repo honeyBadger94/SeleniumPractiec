@@ -14,3 +14,9 @@ Feature: Consistency of prices
         |  1  |
 
 
+    Scenario: sadsa
+      Given asda
+      When asdas
+      Then asdas
+
+
