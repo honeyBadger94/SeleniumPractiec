@@ -13,10 +13,3 @@ Feature: Consistency of prices
         |first|
         |  1  |
 
-
-    Scenario: sadsa
-      Given asda
-      When asdas
-      Then asdas
-
-

@@ -2,6 +2,8 @@ package runners;
 
 
 import io.cucumber.junit.Cucumber;
+
+
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
@@ -15,12 +17,12 @@ import org.junit.runner.RunWith;
         features =
                 "src/test/resources/features/login.feature"
         ,
-        glue = "src/test/java/step_definitions/stepDef",
+        glue = "step_definitions",
         dryRun = false,
         tags = "",
         publish = true
 )
-public class cukesRunner1 {
+public class RunCukesTest {
     //tags = "@s_o and @with_two_columns",
     // scenario must have BOTH tags
     //java logic if(@s_o && @with_two_columns)
